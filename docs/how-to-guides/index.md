@@ -26,6 +26,11 @@ Ubuntu Core has been developed specifically to leverage the power of snap packag
 
 - [Deploy containers](container-deployment/index)
 
+## Using confdb
+
+Manage and access configurations across a sets of snaps using confdb. It supports cross-snap configuration, fine-grained rules with access control and strict schemas for data validation. 
+
+- [Using confdb](using-confdb.md)
 
 
 ```{toctree}
@@ -38,3 +43,4 @@ Using Ubuntu Core <using-ubuntu-core>
 Create images <image-creation/index>
 Manage Ubuntu Core <manage-ubuntu-core/index>
 Deploy containers <container-deployment/index>
+Using confdb <using-confdb.md>

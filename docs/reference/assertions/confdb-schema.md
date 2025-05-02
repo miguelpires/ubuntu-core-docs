@@ -156,8 +156,8 @@ If no constraints are required, the type may be a simple string. For instance, `
 
 All storage schemas start with a map with a single storage field under which should be a map with one or two special keys: a mandatory `schema` key and an optional `aliases` key. The `schema` defines the expected data format. The `aliases` field is a map of new type definitions built on the existing types and constraints. We’ll expand on user-defined types in the next section. It’s worth noting that these rules are specific to the top level storage map and do not apply to nested maps. Aliases cannot be defined in any other maps and, also unlike the top-level map, nested maps can constrain their keys and values in ways other than a `schema` constraint.
 
+(reference-confdb-schema-types)=
 ## Schema Types
-
 ### Map
 Maps can take two forms. The first defines a `schema` constraint, which associates expected keys to the types their values may take. This can be augmented by a `required` constraint to express a set or sets of key combinations that must be present.
 
